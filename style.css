@@ -1,0 +1,35 @@
+nav a:link {
+  color: darkblue;
+  text-decoration: none; /*tira o sublinhado do link*/
+  padding: 8px;
+}
+
+nav a:visited {
+  color: rgb(255, 0, 255);
+}
+
+nav a:hover {
+  background-color: rgb(0, 0, 0);
+  color: black;
+}
+
+nav a:active {
+  color: red;
+}
+
+input[type="email"]:focus {
+  background-color: #4caf50; 
+  outline: none; /*remove o contorno padrão do chrome*/
+  border: 1px solid black;
+}
+
+
+button:hover {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer; /*cursor vira a mãozinha*/
+}
+
+button:active {
+  opacity: 0.6;
+}
